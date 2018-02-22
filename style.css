@@ -3,3 +3,7 @@
     height: 250px;
     
 }
+
+#my-file-selector{
+    display: none;
+}

@@ -9,8 +9,31 @@
 
     </head>
     <body>
-        <h1>Burndown</h1>
-        <div id="burndown"></div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Simple Burndown Chart</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    </div>
+                </div>
+                <div class="justify-content-end">
+                        <form id="file-form">
+                        <label class="btn btn-primary my-2 my-sm-0 " id="upload-button" for"my-file-selector">
+                            <input id="my-file-selector" type="file" onchange="$('#upload-file-info').html($(this).val()); handleFiles(this.files);">
+                            Upload File
+                        </label>
+                    </form>
+                </div>
+            </nav>
+            <h1>Burndown</h1>
+            <div id="burndown"></div>
+        
+        
+    </div>
         <script type="text/javascript" src="app.js">
         
          burndown = document.getElementById('burndown');

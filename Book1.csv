@@ -1,0 +1,23 @@
+,Project: BI Code Management    Server: fsafood.visualstudio.com\fsafood    Query: BIDevSprint9    List type: Flat    ,,,,,,
+,ID,Title,State,Closed Date,Iteration Path,Effort,Business Value
+,919, PWA - Consolidate the SSA and FFSA IDOH databases into a single database,Done,2/20/2018 4:02 PM,\BIA Sprint 9 Ends 2-13-18\BI Dev Sprint 9,120,9
+,5575,IT Scorecards:  Defect Leakage,Done,2/12/2018 10:48 AM,\BIA Sprint 9 Ends 2-13-18\BI Dev Sprint 9,3,7
+,5586,IT Scorecards:  IS Upgrade App + Unit Testing,Done,2/21/2018 9:35 AM,\BIA Sprint 9 Ends 2-13-18\BI Dev Sprint 9,3,7
+,5588,IT Scorecards:  Uptime,Done,2/12/2018 10:49 AM,\BIA Sprint 9 Ends 2-13-18\BI Dev Sprint 9,5,7
+,5589,IT Scorecards:  Application Monitoring,Done,2/20/2018 4:28 PM,\BIA Sprint 9 Ends 2-13-18\BI Dev Sprint 9,3,7
+,5596,IT Scorecards:  Service Level Agreements (Software Support),Done,2/20/2018 4:28 PM,\BIA Sprint 9 Ends 2-13-18\BI Dev Sprint 9,3,7
+,5663,IT Scorecards:  Contract_Vendor Management,Done,2/21/2018 9:29 AM,\BIA Sprint 9 Ends 2-13-18\BI Dev Sprint 9,3,7
+,5889,IT Scorecards: Defect Density,Done,2/21/2018 9:15 AM,\BIA Sprint 9 Ends 2-13-18\BI Dev Sprint 9,3,
+,6691,UAT & Deployment - IT ,Done,2/9/2018 8:50 AM,\BIA Sprint 9 Ends 2-13-18\BI Dev Sprint 9,,
+,6713,Requirements Gathering BI Dev,Committed,,\BIA Sprint 9 Ends 2-13-18\BI Dev Sprint 9,,
+,6947,IT Scorecards:  BIA Code Review,Done,2/21/2018 9:22 AM,\BIA Sprint 9 Ends 2-13-18\BI Dev Sprint 9,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
