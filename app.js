@@ -9,11 +9,11 @@ function cleanCSV(csvArray){
 	csvArray.forEach(function(value, index){
 		let dataString = value[0]
 		if(dataString.charAt(0) === ","){
-			console.log("Shitty Data@ " + index);
-			dataArray.splice(index,1);
+			dataArray.splice(index,csvArray.length-1);
 		}
 	});
 	console.log(dataArray);
+
 }
 
 function closeModal(id){
@@ -84,15 +84,15 @@ function validateData(){
 	}
 	else{
 		//clean up string
-		let ogArray = dataArray;
-		console.log(ogArray);
 		cleanCSV(dataArray);
 		
-
-
 		//Call Plotly stuff here
 	}
 }
+
+//make make object out of each row
+//use string split with a limit of 5 (everything else is trash)
+string.split()
 
 //plotly stuff
 var burndown = document.getElementById('burndown');;
@@ -101,3 +101,9 @@ var burndown = document.getElementById('burndown');;
 	x: [1, 2, 3, 4, 5],
 	y: [1, 2, 4, 8, 16] }], {
 	margin: { t: 0 } } );
+
+
+	// get sprint start date
+	// get sprint end date
+	// get number of days in sprint
+	

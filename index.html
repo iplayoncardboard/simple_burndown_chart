@@ -17,7 +17,15 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <label class="nav-item">
+                            Sprint Start:
+                            <input id ="date-input" class="form-control mr-sm-2" type="date" aria-label="Sprint Start" placeholder="Sprint Start">
+                        </label>
+                        <label class="nav-item">
+                                # Days in Sprint:
+                                <input id ="sprint-length" class="form-control mr-sm-2" type="number" aria-label="Sprint Start" placeholder="Sprint Start">
+                            </label>
+                            
                     </div>
                 </div>
                 <div class="justify-content-end">
@@ -32,7 +40,9 @@
             <h1>Burndown</h1>
             <div id="burndown"></div>
         
-        
+        <div id="temp-content-box">
+            
+        </div>
     </div>
         <script type="text/javascript" src="app.js">
         
