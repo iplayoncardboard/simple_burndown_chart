@@ -13,7 +13,7 @@ function cleanCSV(csvArray){
 		}
 	});
 	console.log(dataArray);
-
+	parseData(dataArray);
 }
 
 function closeModal(id){
@@ -92,7 +92,20 @@ function validateData(){
 
 //make make object out of each row
 //use string split with a limit of 5 (everything else is trash)
-string.split()
+function parseData(array){
+	let newArray = []
+	for(let i=0; i<array.length; i++){
+		var test = String(array[i]).split(/,/);
+		newArray.push(test);
+		console.log(test);
+	}
+	
+	for(let j=0; j<newArray.length; j++){
+		console.log(newArray[j][0])	;
+	} 
+
+}
+
 
 //plotly stuff
 var burndown = document.getElementById('burndown');;
